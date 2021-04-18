@@ -18,26 +18,13 @@ import java.util.Scanner;
 
 public class CodingChallenge1 {
     public static void main(String[] args) {
-//    Scanner input = new Scanner(System.in);
-//
-//        // How much does the item cost?
-//        System.out.print("How much is the item in dollars and cents?: $");
-//        double price = input.nextDouble();
-//
-//        //How much money did you use?
-//        System.out.print("How much money did you give the cashier (in dollars and cents)?: $");
-//        double payment = input.nextDouble();
-//
-//        makeChange(price, payment);
-
         makeChange(1, 5);
 
+        System.out.println("");
         makeChange(1.55, 20);
 
+        System.out.println("");
         makeChange(3.67, 100);
-
-
-
     }
 
     private static void makeChange(double price, double payment) {
