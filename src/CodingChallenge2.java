@@ -51,7 +51,7 @@ public class CodingChallenge2 {
 
     private static void erase(String input) {
         String filterChar = "#";
-        
+
         StringBuilder initialInput = new StringBuilder(input);
         StringBuilder afterRemoval = new StringBuilder(input);
 
